@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<link rel="shortcut icon" type="image/png" href="tictacicon.png" />
+		<script src="tictac.js"></script>
+		<title>Tic Tac Toe</title>
+		<link href="tictac.css" type="text/css" rel="stylesheet" />
+	<body>
+		<div id="control">
+			<button id="AI">Next Move By AI</button>
+			<button id="reset">Reset</button>
+			Size: <span id="sizeat"></span>
+			<input type="range" id="size" value="3" min="3" max="8"/>
+			How Many to Get in a Row: <span id="winat"></span>
+			<input type="range" id="winSize" value="3" min="2" />
+		</div>
+		<div id="content">
+			<div id="grid"></div>
+			<div id="congrats"></div>
+		</div>
+	</body>
+<html>
